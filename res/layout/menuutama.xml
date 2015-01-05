@@ -1,0 +1,54 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:paddingLeft="15sp"
+    android:paddingRight="15sp"
+    android:paddingTop="50sp">
+	
+    <LinearLayout 
+        android:id="@+id/LinearLayouts"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical">
+		
+    	<ImageView
+        	android:id="@+id/splas2"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/splash" />
+
+    	<Button
+       		android:id="@+id/semuatoko"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="35sp"
+        	android:text="View All Store" />
+
+    	<Button
+        	android:id="@+id/lacaktoko"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="6sp"
+        	android:text="Track a Store" />
+    	
+    	<Button
+        	android:id="@+id/laporposisi"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="6sp"
+        	android:text="Report Your Posision" />
+
+    	<Button
+        	android:id="@+id/keluar"
+        	android:layout_width="match_parent"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="6sp"
+        	android:text="Exit" />
+
+	</LinearLayout>    
+
+</ScrollView>

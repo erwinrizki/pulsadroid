@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout 
+        android:id="@+id/LinearLayouts"
+    	android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    	android:orientation="vertical"
+    	android:layout_gravity="center">
+    	
+    	<ImageView
+        	android:id="@+id/gambarsplash"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:src="@drawable/splash" 
+        	android:layout_gravity="center"/>
+
+    	<TextView
+        	android:id="@+id/TextView1"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:layout_marginTop="30dp"
+        	android:text="Made by :"
+        	android:textAppearance="?android:attr/textAppearanceMedium" 
+        	android:layout_gravity="center"/>
+
+    	<TextView
+        	android:id="@+id/TextView2"
+        	android:layout_width="wrap_content"
+        	android:layout_height="wrap_content"
+        	android:text="MINERVA - ERA"
+        	android:textAppearance="?android:attr/textAppearanceMedium" 
+        	android:layout_gravity="center"/>
+		
+    </LinearLayout>
+</ScrollView>
